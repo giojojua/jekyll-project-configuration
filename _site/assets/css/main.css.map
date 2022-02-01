@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss",
+		"_sass/variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"bootstrap.min.css\";\r\n@import \"main\";",
+		"@import \"variables\";\r\n\r\nbody {\r\n  background: $backgroundColor;\r\n  color: $bodyColor;\r\n  font-family: $bodyFont;\r\n}\r\n\r\n.container-fluid {\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\nheader {\r\n  position: sticky;\r\n  top: 0;\r\n  z-index: 1;\r\n  background-color: $backgroundColor;\r\n\r\n  .nav-link {\r\n    color: $bodyColor;\r\n\r\n    &:hover, &:focus {\r\n      color: $bodyColor2;\r\n    }\r\n  }\r\n\r\n  .dropdown-menu {\r\n    background-color: $bodyColor2;\r\n\r\n    .dropdown-item {\r\n      color: $bodyColor;\r\n      cursor: pointer;\r\n    }\r\n\r\n    .dropdown-item:focus, .dropdown-item:hover {\r\n      color: $backgroundColor2;\r\n      background-color: transparent;\r\n    }\r\n  }\r\n}\r\n\r\n.carousel-caption {\r\n  height: 100%;\r\n  top: 0;\r\n  right: unset;\r\n  bottom: unset;\r\n  align-items: center;\r\n\r\n  .caption_wrapper {\r\n    background-color: #000000a1;\r\n    min-height: 300px;\r\n    padding: 15px;\r\n  }\r\n}\r\n\r\n.service_box {\r\n  padding: 15px;\r\n\r\n  .service_box_img {\r\n    width: fit-content;\r\n    margin: 0 auto 15px auto;\r\n    padding: 25px;\r\n    border-radius: 80px;\r\n    background-color: rgba(97,100,255,0.15);\r\n  }\r\n}\r\n\r\nfooter {\r\n  padding: 15px;\r\n  background-color: $backgroundColor2;\r\n}\r\n\r\n\r\n",
+		"$backgroundColor: #03091f;\n$backgroundColor2: #0b1126;\n$bodyColor: #fff;\n$bodyColor2: #6063fc;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAP,sBAAO;ACEP,AAAA,IAAI,CAAC,EACH,UAAU,ECHM,OAAO,EDIvB,KAAK,ECFK,IAAI,EDGd,WAAW,ECDF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GDEvI;;AAED,AAAA,gBAAgB,CAAC,EACf,OAAO,EAAE,CAAC,EACV,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,MAAM,CAAC,EACL,QAAQ,EAAE,MAAM,EAChB,GAAG,EAAE,CAAC,EACN,OAAO,EAAE,CAAC,EACV,gBAAgB,ECjBA,OAAO,GDwCxB;;AA3BD,AAME,MANI,CAMJ,SAAS,CAAC,EACR,KAAK,EClBG,IAAI,GDuBb;;AAZH,AASI,MATE,CAMJ,SAAS,CAGL,KAAK,EATX,MAAM,CAMJ,SAAS,CAGI,KAAK,CAAC,EACf,KAAK,ECpBE,OAAO,GDqBf;;AAXL,AAcE,MAdI,CAcJ,cAAc,CAAC,EACb,gBAAgB,ECzBP,OAAO,GDoCjB;;AA1BH,AAiBI,MAjBE,CAcJ,cAAc,CAGZ,cAAc,CAAC,EACb,KAAK,EC7BC,IAAI,ED8BV,MAAM,EAAE,OAAO,GAChB;;AApBL,AAsBI,MAtBE,CAcJ,cAAc,CAQZ,cAAc,CAAC,KAAK,EAtBxB,MAAM,CAcJ,cAAc,CAQU,cAAc,CAAC,KAAK,CAAC,EACzC,KAAK,ECnCQ,OAAO,EDoCpB,gBAAgB,EAAE,WAAW,GAC9B;;AAIL,AAAA,iBAAiB,CAAC,EAChB,MAAM,EAAE,IAAI,EACZ,GAAG,EAAE,CAAC,EACN,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,KAAK,EACb,WAAW,EAAE,MAAM,GAOpB;;AAZD,AAOE,iBAPe,CAOf,gBAAgB,CAAC,EACf,gBAAgB,EAAE,SAAS,EAC3B,UAAU,EAAE,KAAK,EACjB,OAAO,EAAE,IAAI,GACd;;AAGH,AAAA,YAAY,CAAC,EACX,OAAO,EAAE,IAAI,GASd;;AAVD,AAGE,YAHU,CAGV,gBAAgB,CAAC,EACf,KAAK,EAAE,WAAW,EAClB,MAAM,EAAE,gBAAgB,EACxB,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,IAAI,EACnB,gBAAgB,EAAE,wBAAqB,GACxC;;AAGH,AAAA,MAAM,CAAC,EACL,OAAO,EAAE,IAAI,EACb,gBAAgB,ECrEC,OAAO,GDsEzB"
+}

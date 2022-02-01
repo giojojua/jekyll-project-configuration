@@ -1,0 +1,28 @@
+@import url(bootstrap.min.css);
+body { background: #03091f; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.container-fluid { padding: 0; margin: 0; }
+
+header { position: sticky; top: 0; z-index: 1; background-color: #03091f; }
+
+header .nav-link { color: #fff; }
+
+header .nav-link:hover, header .nav-link:focus { color: #6063fc; }
+
+header .dropdown-menu { background-color: #6063fc; }
+
+header .dropdown-menu .dropdown-item { color: #fff; cursor: pointer; }
+
+header .dropdown-menu .dropdown-item:focus, header .dropdown-menu .dropdown-item:hover { color: #0b1126; background-color: transparent; }
+
+.carousel-caption { height: 100%; top: 0; right: unset; bottom: unset; align-items: center; }
+
+.carousel-caption .caption_wrapper { background-color: #000000a1; min-height: 300px; padding: 15px; }
+
+.service_box { padding: 15px; }
+
+.service_box .service_box_img { width: fit-content; margin: 0 auto 15px auto; padding: 25px; border-radius: 80px; background-color: rgba(97, 100, 255, 0.15); }
+
+footer { padding: 15px; background-color: #0b1126; }
+
+/*# sourceMappingURL=main.css.map */
